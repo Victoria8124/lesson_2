@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //  let age = Number(prompt("Ваш возраст?")); // + - аналог Number - +prompt()
+    //  console.log(`Ваш возраст ${age}`);
+    //     alert(`Вам ${age} лет`);
+
+    //     let userName = prompt("Ваше имя?");
+    //     alert(`Добро пожаловать на сайт ${userName}`);
+
+// const a = '2';
+// const b = '3';
+// console.log(+a + +b);
+
+// const a = +prompt("Введите число");
+// const b = +prompt("Ведите число");
+
+//        let sum = a + b;
+//         let difference = a - b;
+//         let  product = a * b;
+//          let  quotient = a / b;
+//          let remainderOfDivision = a % b;
+//          console.log(sum, difference, product, quotient, remainderOfDivision);
+
+// let number = +prompt("Введите число");
+// if (number > 5) {
+//     console.log("Число больше 5");
+// } else if (number < 5) {
+//    console.log("Число меньше 5");
+// } else {
+//     console.log("Число равно 5");
+// }
+
+    // const numberOne = +prompt("Введите число");
+    // const numberTwo = +prompt("Ведите число");
+    // if (numberOne === numberTwo) {
+    //     console.log("Числа равны");
+    // } else {
+    //     console.log("Числа не равны");
+    // }
+
+//     const numberOne = +prompt("Введите число");
+//      const numberTwo = +prompt("Ведите число");
+//      if (numberOne > numberTwo) {
+// console.log(`Число ${numberOne} больше`);
+//      } else {
+//         console.log(`Число ${numberTwo} больше`);
+//      }
+
+    // const number = +prompt("Введите число");
+    // if (number > 0 && number < 15) {
+    //     console.log("Верное значение");
+    // } 
+// задание 1
+// let num1 = +prompt("Введите число");
+// let num2 = +prompt("Введите число");
+//     // if (num1 >= 1 ) {
+//     //     console.log(`Значение ${num1} больше или равно 1`);
+//     // } else {
+//     //     console.log(`Значение ${num1} меньше единицы 1`);
+//     // }
+//     (num1 <= 1) ? console.log(`Значение ${num1} равно или меньше 1`) : console.log(`Значение ${num1} больше единицы 1`);
+//     (num2 >= 3) ? console.log(`Значение ${num2} больше или равно 3`) : console.log(`Значение ${num1} меньше 3`);
+// задание 2
+//     let test = true;
+//  (test === true) ? console.log('+++') : console.log('---');
+    // задание 3
+    // let day = +prompt("Введите число");
+    // if (day <= 10) {
+    //     console.log("1 декада");
+    // } else if (day > 10 && day < 20) {
+    //     console.log("2 декада");
+    // } else {
+    //     console.log("3 декада");
+    // }
+
+
+    // function f(n) {
+    //         units = n % 10
+    //         tens = Math.floor(n / 10 % 10)
+    //         hundreds = Math.floor(n / 100 % 10)
+    //         console.log(`В числе ${n} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`)
+    //     }
+    //     f(1)
+    //     f(12)
+    //     f(123)
+    //     f(1234)
+ let number = +prompt("Введите число");
+ if (Number(number)) {
+    units = number % 10
+     tens = Math.floor(number / 10 % 10)
+     hundreds = Math.floor(number / 100 % 10)
+     console.log(`В числе ${number} количество сотен: ${hundreds}, десятков: ${tens}, единиц: ${units}`);
+ } else {git
+    console.log("Ввели некорректные данные");
+ }
+
+    </script>
+   
+</body>
+</html>
